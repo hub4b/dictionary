@@ -1,0 +1,27 @@
+/***********************************************************************/
+/*                                                                     */
+/*    FIRUDICT.CSS - Yalldo Cascading Style Sheet                      */
+/*    Copyright (c) 2013 Hub4b - Developed by lauri@koutaniemi.com     */
+/*                                                                     */
+/***********************************************************************/
+
+/* reset margins and paddings */ 
+* { margin: 0px; padding: 0px; }
+
+/* fonts */
+@font-face { font-family: 'flexolight'; src: url('fonts/flexolight.eot'); }
+@font-face { font-family: 'flexolight'; src: url('fonts/flexolight.ttf'); }
+
+/* set css styles for basic elements */
+html, body { margin:0px; padding:0; border:none; overflow:hidden; text-align:center; height:100%; -webkit-text-size-adjust:none; } img { border:0; vertical-align: top; }
+body { background-color:#f4f4f4; font-family:"flexolight"; font-size:26px; color:#444444; }
+table td { font-family:"flexolight"; font-size:26px; color:#444444; }
+h1 { font-family: 'flexolight'; color:#333333; font-size:40px; font-weight:normal; }
+h2 { font-family: 'flexolight'; color:#222222; font-size:32px; font-weight:normal; }
+h3 { font-family: 'flexolight'; color:#222222; font-size:24px; font-weight:normal; }
+table { border-collapse:collapse } table td { padding:0; text-align:left; vertical-align:top; }
+form, h1, h2, h3, pre, img { margin:0; padding:0; }
+input, textarea, select { padding: 10px; font-family:"flexolight"; font-size:26px; color:#444444; height:28px; }
+textarea, input:focus { outline: none; }
+a:link, a:visited { text-decoration: none; color:#aa6600; }
+

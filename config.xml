@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.hub4b.dictionary"
+        version   = "2.3.3">
+
+   <!-- App Details -->
+   <name>Fi-Ru Dictionary</name>
+   <description>Finnish Russian Dictionary</description>
+   <author href="http://www.hub4b.com/firudict" email="info@hub4b.com">Hub4b</author>
+
+   <!-- Features -->
+   <feature name="http://api.phonegap.com/1.0/network"/>
+   <feature name="http://api.phonegap.com/1.0/media"/>
+   <feature name="http://api.phonegap.com/1.0/file"/>
+   <feature name="http://api.phonegap.com/1.0/notification"/>
+   <feature name="http://api.phonegap.com/1.0/networkmanager"/>
+   <feature name="http://api.phonegap.com/1.0/device"/>
+   <feature name="http://api.phonegap.com/1.0/storage"/>
+
+   <!-- Preferences -->
+   <preference name="webviewbounce" value="false" />
+   <preference name="phonegap-version" value="2.9.0" />
+   <preference name="target-device" value="universal" />
+   <preference name="orientation" value="portrait" />
+   <preference name="stay-in-webview" value="false" />
+   <access origin="*" browserOnly="true" subdomains="true"/>
+
+   <!-- Icons -->
+   <icon src="icon.png" width="64" height="64" gap:role="default" />
+   <icon src="icon72.png" width="72" height="72" gap:platform="android" gap:density="hdpi" />
+   <icon src="icon96.png" width="96" height="96" gap:platform="android" gap:density="xhdpi" />
+   <icon src="icon72.png" width="72" height="72" gap:platform="ios" />
+
+   <!-- Splash Screens -->
+   <gap:splash src="splash.png" />
+   <gap:splash src="splash.png" gap:platform="android" gap:density="ldpi" />
+   <gap:splash src="splash.png" gap:platform="android" gap:density="mdpi" />
+   <gap:splash src="splash.png" gap:platform="android" gap:density="hdpi" />
+   <gap:splash src="images/splash320.png" gap:platform="ios" width="320" height="480" />
+   <gap:splash src="images/splash640.png" gap:platform="ios" width="640" height="960" />
+   
+</widget>
