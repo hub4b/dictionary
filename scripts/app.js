@@ -3,9 +3,10 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) devic
 
 function search(term) {
 	$.ajax({
+		data: { term: term },
 		type: "POST", url: "http://www.koutaniemi.com/scripts/translate.php",
 		success: function(d) {
-			if(!d) $("#result").html("ei tuloksia // ничего не найдено");
+			if(!d) $("#result").html("<center>ei tuloksia / ничего не найдено</center>");
 			else $("#result").html(d);
 		}
 	});
@@ -13,7 +14,7 @@ function search(term) {
 
 $(document).ready(function() {
 	
-	$('#term').bind('keypress', function(e) { search($('#term').val()); });
+	$('#term').bind('keyup', function(e) { search($('#term').val()); });
 	
 	
 });
