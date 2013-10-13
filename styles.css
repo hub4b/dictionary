@@ -1,27 +1,33 @@
-/***********************************************************************/
-/*                                                                     */
-/*    FIRUDICT.CSS - Yalldo Cascading Style Sheet                      */
-/*    Copyright (c) 2013 Hub4b - Developed by lauri@koutaniemi.com     */
-/*                                                                     */
-/***********************************************************************/
-
-/* reset margins and paddings */ 
-* { margin: 0px; padding: 0px; }
-
 /* fonts */
 @font-face { font-family: 'flexolight'; src: url('fonts/flexolight.eot'); }
 @font-face { font-family: 'flexolight'; src: url('fonts/flexolight.ttf'); }
 
-/* set css styles for basic elements */
-html, body { margin:0px; padding:0; border:none; overflow:hidden; text-align:center; height:100%; -webkit-text-size-adjust:none; } img { border:0; vertical-align: top; }
-body { background-color:#f4f4f4; font-family:"flexolight"; font-size:26px; color:#444444; }
-table td { font-family:"flexolight"; font-size:26px; color:#444444; }
-h1 { font-family: 'flexolight'; color:#333333; font-size:40px; font-weight:normal; }
-h2 { font-family: 'flexolight'; color:#222222; font-size:32px; font-weight:normal; }
-h3 { font-family: 'flexolight'; color:#222222; font-size:24px; font-weight:normal; }
-table { border-collapse:collapse } table td { padding:0; text-align:left; vertical-align:top; }
-form, h1, h2, h3, pre, img { margin:0; padding:0; }
-input, textarea, select { padding: 10px; font-family:"flexolight"; font-size:26px; color:#444444; height:28px; }
+/* html tags */
+* { margin: 0px; padding: 0px; }
+html, body { text-align: center; }
+a:link, a:visited { text-decoration: none; color:#333333; }
+body { font-family:"flexolight"; font-size:20px; color:#888888; }
+h1 { font-family: 'flexolight'; color:#eeeeee; font-size:40px; font-weight:normal; }
+h2 { font-family: 'flexolight'; color:#cccccc; font-size:32px; font-weight:normal; }
+h3 { font-family: 'flexolight'; color:#cccccc; font-size:24px; font-weight:normal; }
+input, textarea, select { padding: 10px; font-family:"flexolight"; font-size:26px; color:#888888; height:28px; }
 textarea, input:focus { outline: none; }
-a:link, a:visited { text-decoration: none; color:#aa6600; }
+img { vertical-align: top; border:0px; }
 
+/* classes */
+.centered { position: relative; display: inline-block; margin-left: auto; margin-right: auto; }
+.center { width: 100%; text-align:center; }
+.clear { clear: both; }
+.right { float:right; }
+.left { float:left; }
+.p10 { padding: 10px; }
+.p20 { padding: 20px; }
+
+/* elements */
+#bar { position:absolute; width:100%; height:90px; background-image:url("images/bar-bg.png"); }
+#menu { position:absolute; width:100px; height:90px; background-image:url("images/bar-menu.png"); }
+#sett { position:absolute; width:100px; height:90px; background-image:url("images/bar-sett.png"); right:0px; }
+#banner { position:absolute; width:100%; height:90px; background-image:url("images/banner-bg.png"); top:90px; }
+#input { width:600px; height:70px; background-image:url("images/input-bg.png"); top:10px; }
+#term { width:520px; height:40px; background:transparent; border:none; color:#666666; font-size:24px; padding-left:60px; padding-top:15px; padding-right:20px; }
+#result { position:absolute; width:100%; min-height:200px; top:180px; padding-top:40px; }
