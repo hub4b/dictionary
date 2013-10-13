@@ -24,6 +24,7 @@ img { vertical-align: top; border:0px; }
 .p20 { padding: 20px; }
 
 /* elements */
+#bg { position:absolute; width:100%; height:100%; background-color:#ffffff; }
 #bar { position:absolute; width:100%; min-width:640px; height:90px; background-image:url("images/bar-bg.png"); }
 #menu { position:absolute; width:100px; height:90px; background-image:url("images/bar-menu.png"); }
 #sett { position:absolute; width:100px; height:90px; background-image:url("images/bar-sett.png"); right:0px; }
